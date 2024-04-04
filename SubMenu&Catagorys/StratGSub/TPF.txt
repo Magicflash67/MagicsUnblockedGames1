@@ -117,25 +117,15 @@ table {
           <th>Website host location</th>
         </tr>
         <tr>
-          <td>SBI1</td>
-          <td><a href="https://sites.google.com/site/classroom6x/papas-bakeria">
-            <img src=".../images/" alt="papas Bakeria">
+          <td>IDNUMBER Current SBI1</td>
+          <td><a href="ENTER LINK TO WEB">
+            <img src="../images/" alt="Image Button">
           </a></td>
           <td>Bakeria</th>
           <td>You're Hired!!! But can you handle running a big-time bakery serving the most sought-after pies in town? Centered in Whiskview Mall, Papa's Bakeria gets its fair share of foot traffic from some of the pickiest customers around. You'll be tasked with choosing the correct crust, filling them with a variety of wild ingredients, and baking them to perfection! Before you're done, head over to the Top Station to give your pies the finishing touch with a huge assortment of toppings to choose from.</td>
           <td>FLIPLINE Studios</td>
           <td>Classroom6x</td> 
         </tr>
-        <tr>
-            <td>SBI2</td>
-            <td><a href="https://sites.google.com/site/classroom6x/papas-bakeria">
-              <img src=".../images/" alt="papas Bakeria">
-            </a></td>
-            <td>Bakeria</th>
-            <td></td>
-            <td>FLIPLINE Studios</td>
-            <td>Classroom6x</td> 
-          </tr>
       </table>
     </div><br>
   
