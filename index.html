@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif "color: BlanchedAlmond;"}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
@@ -16,9 +16,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+body {
+  background-image: url("./extra/magicGamesBackground.jpg");
+}
 </style>
 </head>
-<body class="w3-black">
+<body>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
@@ -73,14 +76,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome to </span> Magic's Games</h1>
-    <p>A ever shifting website filled with links to good unblocked games main made for touch screen based devices </p>
+  <header>
+    <h1 class="w3-jumbo" style="color: BlanchedAlmond;"><span class="w3-hide-small">Welcome to </span> Magic's Games</h1>
+    <p style="color: BlanchedAlmond;">A ever shifting website filled with links to good unblocked games main made for touch screen based devices </p>
     <img src="./images/MainPageLogo/ControllerMagic.png" alt="logo" class="w3-image" width="300" height="300">
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about"> 
     <h2 class="w3-text-light-grey">Magic Games</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>magic games is made with W3CSS and overall powered by github. Magic games is ever shifting website filled with links to good unblocked games mainly made for touch screen based devices with computers second. magics games link may change if the url is blocked so check the github pages everytime the website goes down </p>
