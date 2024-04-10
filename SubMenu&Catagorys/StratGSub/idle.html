@@ -46,8 +46,26 @@ tr:nth-child(odd) {
   background-color: rgb(93, 0, 255);
   color: white;
 }
-
-</style>
+div.a {
+  background-color: rgb(0, 0, 0);
+  border: 15px solid rgb(179, 0, 255); /* Add 'solid' to specify the border style */
+  padding: 50px;
+  margin: 20px; /* This applies to all sides */
+  margin-top: 100px; /* Adjust this value according to your design */
+  margin-left: 140px; /* Adjust this value to match the sidebar width */
+}
+div.b {
+  background-color: black;
+  border: 15px solid rgb(179, 0, 255); /* Add 'solid' to specify the border style */
+  padding: 50px;
+  margin: 20px;
+}
+#main {
+  margin-left: 140px; /* Adjust this value to match the sidebar width */
+}
+body {
+  background-image: url('../../extra/magicGamesBackground.jpg');
+}
 </style>
 </head>
 <body class="w3-black">
@@ -96,6 +114,7 @@ tr:nth-child(odd) {
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
+  <div class="b">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome to </span>Idel Games</h1>
@@ -219,7 +238,9 @@ tr:nth-child(odd) {
           </tr>
           <tr></tr>
       </table>
-    </div><br>
+    </div>
+  </div>
+  <br>
   
   
     <!-- Footer -->
