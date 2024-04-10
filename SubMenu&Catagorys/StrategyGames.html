@@ -29,6 +29,28 @@ table {
 td {
   text-align: center;
 }
+div.a {
+  background-color: black;
+  border: 15px solid rgb(179, 0, 255); /* Add 'solid' to specify the border style */
+  padding: 50px;
+  margin: 20px; /* This applies to all sides */
+  margin-top: 100px; /* Adjust this value according to your design */
+  margin-left: 140px; /* Adjust this value to match the sidebar width */
+}
+
+div.b {
+  background-color: black;
+  border: 15px solid rgb(179, 0, 255); /* Add 'solid' to specify the border style */
+  padding: 50px;
+  margin: 20px;
+}
+#main {
+  margin-left: 140px; /* Adjust this value to match the sidebar width */
+}
+
+body {
+  background-image: url('./extra/magicGamesBackground.jpg');
+}
 </style>
 </head>
 <body class="w3-black">
@@ -37,28 +59,28 @@ td {
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
   <img src="../images/MainPageLogo/ControllerMagic.png" alt="logo" style="width:100%">
-  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
   </a>
-  <a href="./StratGSub/Biz.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="./StratGSub/Biz.html" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <img src="../images/BizImages/BizLogo.png" alt="My Photo" style="width: 50px;">
     <p>Business Games</p>
 </a>
-  <a href="" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <img src="../images/" alt="New games logo" style="width: 50px;">
     <p>Construction</p>
   </a>
-  <a href="./StratGSub/endless.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="./StratGSub/endless.html" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <img src="../images/EndlessImage/EndlessPuzzle.png" alt="strategy logo" style="width: 50px;">
     <p>endless games</p>
   </a>
-  <a href="./StratGSub/idel.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="./StratGSub/idel.html" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <img src="../images/IdelImages/IdelGames.png" alt="Skill logo " style="width: 50px;">
     <p>Idel Games</p>
   </a>
-  <a href="Enter html file here" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="Enter html file here" class="w3-bar-item w3-button w3-padding-large w3-purple">
     <img src="../images/" alt="Game Series logo" style="width: 50px;">
     <p>Tower Defence</p>
   </a>
@@ -75,7 +97,7 @@ td {
 </div>
 
 <!-- Page Content -->
-<div class="w3-padding-large" id="main">
+<div class="w3-padding-large" class="a" id="main" >
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome to </span> strategy Games</h1>
@@ -100,12 +122,6 @@ td {
           <th>Website host location</th>
         </tr>
         <tr>     
-
-          
-          
-
-
-
 
           <td>SID1</td>
           <td><a href="https://guthib.com">
